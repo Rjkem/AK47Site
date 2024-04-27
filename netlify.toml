@@ -1,2 +1,7 @@
 [[plugins]]
   package = "@netlify/plugin-emails"
+NETLIFY_EMAILS_PROVIDER = "mailgun"
+NETLIFY_EMAILS_PROVIDER_API_KEY = "6c3ff516527b12fd53744ec0f7573147-2175ccc2-b4dd69cb"
+NETLIFY_EMAILS_SECRET = "Conor hates the gym"
+NETLIFY_EMAILS_MAILGUN_DOMAIN = "mail.ak47rock.com"
+NETLIFY_EMAILS_MAILGUN_HOST_REGION = "eu"
