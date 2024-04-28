@@ -2524,8 +2524,6 @@ input[type="radio"]+label:before {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	/* Creates two columns */
-	grid-template-rows: auto auto;
-	/* Two rows, height adjusts to content */
 	gap: 10px;
 	/* Space between the embeds */
 	max-width: 100%;
@@ -2535,8 +2533,10 @@ input[type="radio"]+label:before {
 }
 
 .instagram-embed {
-	border: 1px solid #ccc;
+	border: 0px solid #ccc;
 	/* Optional: adds a border around each embed */
+	margin-bottom: 80px;
+	/* Adds space at the bottom of each embed */
 }
 
 /* Icon */
