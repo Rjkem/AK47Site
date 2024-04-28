@@ -2528,7 +2528,7 @@ input[type="radio"]+label:before {
 	/* Two rows, height adjusts to content */
 	gap: 10px;
 	/* Space between the embeds */
-	max-width: 1000px;
+	max-width: 100%;
 	/* Adjust the max-width as necessary */
 	margin: auto;
 	/* Centers the grid in the parent element */
