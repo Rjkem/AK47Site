@@ -2522,9 +2522,9 @@ input[type="radio"]+label:before {
 /* Instagram */
 .instagram-grid {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
 	/* Creates two columns */
-	grid-template-rows: auto auto;
+	grid-template-rows: auto;
 	/* Two rows, height adjusts to content */
 	gap: 10px;
 	/* Space between the embeds */
