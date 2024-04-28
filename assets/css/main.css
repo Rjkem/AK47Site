@@ -2522,14 +2522,20 @@ input[type="radio"]+label:before {
 /* Instagram */
 .instagram-grid {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
 	/* Creates two columns */
+	grid-template-rows: auto auto;
+	/* Two rows, height adjusts to content */
 	gap: 10px;
 	/* Space between the embeds */
-	max-width: 100%;
+	max-width: 1000px;
 	/* Adjust the max-width as necessary */
-	margin: 0;
+	margin: auto;
 	/* Centers the grid in the parent element */
+	max-height: 1500px;
+	/* Maximum height of the grid container */
+	overflow-y: auto;
+	/* Enables vertical scrolling */
 }
 
 .instagram-embed {
