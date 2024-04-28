@@ -2545,6 +2545,17 @@ input[type="radio"]+label:before {
 	/* Adds space at the bottom of each embed */
 }
 
+@media (max-width: 768px) {
+
+	/* Targets screens with a max width of 768px */
+	.instagram-grid {
+		max-height: 400px;
+		/* Maximum height of the grid container */
+		overflow-y: auto;
+		/* Enables vertical scrolling */
+	}
+}
+
 /* Icon */
 
 .icon {
