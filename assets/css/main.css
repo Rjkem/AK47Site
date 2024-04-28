@@ -2519,6 +2519,26 @@ input[type="radio"]+label:before {
 	padding: 0;
 }
 
+/* Instagram */
+.instagram-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	/* Creates two columns */
+	grid-template-rows: auto auto;
+	/* Two rows, height adjusts to content */
+	gap: 10px;
+	/* Space between the embeds */
+	max-width: 100%;
+	/* Adjust the max-width as necessary */
+	margin: 0;
+	/* Centers the grid in the parent element */
+}
+
+.instagram-embed {
+	border: 1px solid #ccc;
+	/* Optional: adds a border around each embed */
+}
+
 /* Icon */
 
 .icon {
