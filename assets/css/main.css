@@ -343,6 +343,41 @@ pre code {
 	text-align: right;
 }
 
+.gig-table {
+	width: 66.67%;
+	/* Two-thirds width */
+	border-collapse: collapse;
+	margin: 20px auto;
+	/* Centers the table and adds margin on top and bottom */
+}
+
+.gig-table th,
+
+.gig-table td {
+	border: 1px solid #ddd;
+	padding: 8px;
+	text-align: center;
+
+}
+
+.gig-table th {
+	background-color: transparent;
+	color: rgb(177, 177, 177);
+	font-weight: bold;
+}
+
+.gig-table tr:nth-child(even) {
+	background-color: transparent;
+}
+
+.gram {
+	width: 66.67%;
+	/* Two-thirds width */
+	border-collapse: collapse;
+	margin: 20px auto;
+	/* Centers the table and adds margin on top and bottom */
+}
+
 /* Loader */
 
 @-moz-keyframes spinner-show {
